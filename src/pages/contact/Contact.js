@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Card from "../../components/card/Card";
 import "./Contact.scss";
-import { FaPhoneAlt, FaEnvelope, FaTwitter } from "react-icons/fa";
+import { FaPhoneAlt, FaEnvelope, FaLinkedin } from "react-icons/fa";
 import { GoLocation } from "react-icons/go";
 import { toast } from "react-toastify";
 import axios from "axios";
@@ -63,19 +63,19 @@ const Contact = () => {
             <div className="icons">
               <span>
                 <FaPhoneAlt />
-                <p>070123123123</p>
+                <p>08273052922</p>
               </span>
               <span>
                 <FaEnvelope />
-                <p>Support@invent.com</p>
+                <p>Support@apoorv.invent.com</p>
               </span>
               <span>
                 <GoLocation />
-                <p>Abuja, Nigeria</p>
+                <p>Noida, India</p>
               </span>
               <span>
-                <FaTwitter />
-                <p>@ZinoTrust</p>
+                <FaLinkedin />
+                <p>https://www.linkedin.com/in/apoorv-chaudhary-592976211</p>
               </span>
             </div>
           </Card>
